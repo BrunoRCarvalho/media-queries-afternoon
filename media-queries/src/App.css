@@ -1,0 +1,160 @@
+.header {
+  background-image: url('./Images/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+}
+
+.bootstrap-button {
+  color: orange;
+  width: 20vw;
+  height: 20vh;
+  float: left;
+  font-size: 1.5rem;
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+
+.buttons {
+  width: 40vw;
+  height: 10vh;
+  color: white;
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  justify-content: space-around;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  margin-top: 4vh;
+  margin-right: 7vw;
+}
+
+.services {
+  background-color: white;
+  height: 100vh;
+}
+
+.menu {
+  display: none;
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+.welcome {
+  color: white;
+  font-size: 2em;
+  letter-spacing: 2px;
+  height: 7vh;
+  margin-top: 27vh;
+  display: flex;
+  justify-content: center;
+}
+
+.nice {
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+  letter-spacing: 2px;
+  width: 80vw;
+  height: 20vh;
+  text-align: center;
+  margin-left: 10vw;
+}
+
+.more-button {
+  color: white;
+  letter-spacing: 1px;
+  background-color: #fed136;
+  border-color: #fed136;
+  width: 150px;
+  height: 25px;
+  display: flex;
+  margin-left: 37vw;
+  margin-top: 2vh;
+  font-size: 1em;
+  padding: 20px 40px;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  border-radius: .25em;
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    display: inline-flex;
+    color: white;
+    background-color: #fed136;
+    float: right;
+    margin-top: 1vh;
+    margin-right: 12vw;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
+  .welcome {
+    margin-left: 10vw;
+  }
+
+  .nice {
+    width: 80vw;
+    margin-left: 15vw;
+  }
+
+  .more-button {
+    margin-left: 42vw;
+    margin-top: 0px; 
+  }
+
+  .bootstrap-button {
+    font-size: 1em;
+    margin-top: 2vh;
+    margin-left: 15vw;
+  }
+
+  .navbar {
+    background-color: #212529;
+    height: 7vh;
+  }
+
+  .buttons {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .bootstrap-button {
+    width: 50vw;
+  }
+
+  .welcome {
+    font-size: 1.1em;
+    width: 100vw;
+    margin-top: 20vh;
+    margin-left: 0px;
+  }
+  
+  .nice {
+    margin-top: 5vh;
+    width: 100vw;
+    font-size: 3em;
+    margin-left: 0px;
+  }
+
+  .more-button {
+    margin-left: 20vw;
+  }
+}
